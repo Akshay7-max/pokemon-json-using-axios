@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* @import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&family=Tiro+Gurmukhi&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Edu QLD Beginner", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-heading {
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  color: deeppink;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  background-color: teal;
+  width:100%;
+  height:20vh;
+}
+
+.footer{
+  background-color: indigo;
+  width:100%;
+  height:10vh;
+  text-align: center;
 }
